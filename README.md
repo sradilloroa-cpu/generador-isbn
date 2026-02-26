@@ -55,9 +55,6 @@ def validar_codigo_isbn(codigo):
         print("La parte del codigo debe tener 10 o 13 caracteres.")
         return None
 
-#PROGRAMA PRINCIPAL
-
-
 codigo_usuario = input("Ingrese el codigo del libro: ")
 
 resultado = validar_codigo_isbn(codigo_usuario)
